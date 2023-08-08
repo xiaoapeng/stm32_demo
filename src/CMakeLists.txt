@@ -1,6 +1,5 @@
 ## Setup cross-compile toolchain 
-set(CROSS_COMPILE_PREFIX arm-none-eabi-)
-include(${STM32_CMAKE_DIR}/cmake/gcc-arm-none-eabi.cmake)
+
 include(${CMAKE_CURRENT_SOURCE_DIR}/${STM32_PROJ_FOLDER}/target-def.cmake)
 
 ## auto-set variables from user input

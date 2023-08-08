@@ -1,5 +1,7 @@
 # the name of the target operating system
-set(CMAKE_SYSTEM_NAME   Generic)
+set(CROSS_COMPILE_PREFIX /home/simon/.local/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-)
+
+set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_VERSION  1)
 set(CMAKE_SYSTEM_PROCESSOR  Arm)
 
